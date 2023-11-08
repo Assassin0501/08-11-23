@@ -1,10 +1,3 @@
-ftp 192.168.5.105
-
-
-sudo ufw allow ftp
-
-ftp 192.168.5.105
-
 sudo apt-get update
 
 sudo apt-get install vsftpd
@@ -14,4 +7,14 @@ sudo nano /etc/vsftpd.conf
 sudo apt-get intsall ufw
 
 sudo ufw enable
+
+sudo ftp open[ip]
+
+ftp 192.168.5.105
+
+get [remote file name] [local file name]
+
+put [local file name] [remote file name]
+
+
 
