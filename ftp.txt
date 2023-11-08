@@ -1,0 +1,11 @@
+sudo apt-get install ftp
+
+sudo apt-get install vsftpd ftp ufw -y
+
+sudo systemctl status vsftpd
+
+sudo  gedit /etc/vsftpd.conf
+
+sudo systemctl restart vsftpd
+
+ftp localhost
