@@ -1,0 +1,7 @@
+sudo apt-get install telnetd
+
+sudo ufw disable
+
+sudo systemctl status inetd
+
+telnet localhost
